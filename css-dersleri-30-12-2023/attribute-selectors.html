@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selectors</title>
+    <link rel="stylesheet" href="/attribute-selectors.css">
+</head>
+<body>
+    <!-- Attribute Selectors 
+
+    7 farklı kullanımı vardır. -->
+
+     <!-- 1- Attribute Selector    -->
+     <!-- 2- Attribute Value Selector -->
+     <!-- 3- Attribute * Selector // İçerisinde active classı olan bütün elemanları seçmemize yarar.
+    class ismine başka class isimleri eklense de seçim yapmaya devam eder. Birleşik yazılan class isimlerinde de
+    active herhangi bir bölümde geçiyorsa seçimi yine de yapar.
+          4- Attribute ~ Selector // Sadece tek class ismi geçen kısımları alır. Birleşik yazı kabul etmez. 
+          5- Atrribute | Selectors  // Class ismi sadece başlangıçta olan classlar seçilir. Class içinde farklı bir
+          class daha varsa seçim yapmaz. Ancak tek class ismi ile birleşik yazı kabul eder ama ulaşmak istediğimiz 
+          class ismi başta olursa. Birleşik class isimlerinde de -(tire) ile isimlerin ayrılması durumunda seçim
+          yapar.
+          6- Attribute ^ Selectors // Başta yazılan class isimlerini kabul eder. Class içinde farklı class isimleri 
+          varsa da seçim yaptırır.Birleşik yazı kabul eder.
+          7- Attribute $ Selectors // Sonda yazılan class isimlerini kabul eder. Class içinde farklı class isimleri
+          varsa da kabul eder seçim yaptırır. Birleşik yazı kabul.
+    -->
+
+
+
+
+     <span class=" text dssdfactive">text</span>   
+     <nav>
+        <a href="" target="_blank">Home</a>
+        <a href="" class="active">About</a>
+        <a href="" class="contact">Contact</a>
+     </nav>   
+
+
+
+
+
+
+
+</body>
+</html>

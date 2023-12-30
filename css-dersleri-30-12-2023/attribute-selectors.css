@@ -1,0 +1,30 @@
+
+
+
+/* a[target]{
+    background-color: red;
+}
+
+[class="contact"]{
+    background-color: yellow;
+} */
+
+/* [class*="active"]{
+    background-color: aqua;
+} */
+
+/* [class~="active"]{
+    background-color: blueviolet;
+} */
+
+/* [class|="active"]{
+    background-color: chocolate;
+} */
+
+/* [class^="active"]{
+    background-color: chartreuse;
+} */
+
+[class$="active"]{
+    background-color: coral;
+}

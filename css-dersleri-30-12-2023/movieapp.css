@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    background-color: coral;
+    height: 7vh;
+   
+}
+
+.container a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container .logo{
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+.nav-logo{
+    float: left;
+    margin-top: 8px;  
+   
+}
+
+.nav-links{
+    float: right;  
+    margin-top: 15px;   
+   
+}
+
+.nav-links .link{
+    padding-left: 15px;
+    
+   
+  
+}
+   
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    
+}
+
+#main-movieapp{
+    background-image: url("movie.jpeg");
+    height: 93vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #000;
+    padding: 50px 60px;
+    text-align: center;
+    opacity: .8;
+    border-radius: 10px;
+  
+}
+
+.main-title h3{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    
+}
+
+#main-movieapp .cover{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    height: 93vh;
+    background-color: coral;
+    opacity: 0.2;
+}
